@@ -1,0 +1,25 @@
+{
+  "name": "ConversationsPlugin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check",
+    "lint": "eslint --ext js src/ functions/functions/",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "flex-plugin": "latest",
+    "@twilio/flex-ui": "latest",
+    "@twilio/flex-webchat-ui": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "twilio-flex-token-validator": "^1.5.6",
+    "@twilio/flex-plugin-scripts": "5.0.4",
+    "react-emotion": "9.2.12"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "^1",
+    "twilio-run": "^3.2.0",
+    "react-test-renderer": "17.0.2"
+  }
+}
